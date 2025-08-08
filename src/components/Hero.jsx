@@ -16,7 +16,7 @@ const SquiggleUnderline = () => (
   </svg>
 );
 
-const AvailableForFreelance = () => (
+const AvailableForWork = () => (
   <div className="absolute -top-8 -left-8 w-36 h-36 freelance-badge-container group select-none">
     <style>
       {`
@@ -29,7 +29,7 @@ const AvailableForFreelance = () => (
           transition: animation-duration 0.3s ease;
         }
         .group:hover .rotate-slow {
-          animation-duration: 3s;
+          animation-duration: 4s;
         }
       `}
     </style>
@@ -57,8 +57,8 @@ const AvailableForFreelance = () => (
           fill="#111827"
           className="text-[9px] font-semibold tracking-wider uppercase"
         >
-          <textPath href="#circlePath" startOffset="0%">
-            • Available for freelance • Available for freelance
+          <textPath href="#circlePath" startOffset="0%" textLength="251">
+            • Available for work • Available for work
           </textPath>
         </text>
       </g>
@@ -81,7 +81,7 @@ const Hero = () => {
               I'm Shivam Gupta,
               <br />
               <span className="inline-block relative">
-                a engineering student.
+                an engineering student.
                 <div className="absolute -bottom-3 left-0 w-full px-2">
                   <SquiggleUnderline />
                 </div>
@@ -115,8 +115,8 @@ const Hero = () => {
                 />
               </div>
 
-              {/* Rotating "Available for Freelance" badge */}
-              <AvailableForFreelance />
+              {/* Rotating "Available for Work" badge */}
+              <AvailableForWork />
 
               {/* Decorative Sparkles (top right) */}
               <div className="absolute top-0 -right-4 hidden md:block">
