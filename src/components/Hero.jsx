@@ -58,7 +58,7 @@ const AvailableForWork = () => (
           className="text-[9px] font-semibold tracking-wider uppercase"
         >
           <textPath href="#circlePath" startOffset="0%" textLength="251">
-            • Available for work • Available for work
+            Plan • Design • Develop • Deploy •&nbsp;
           </textPath>
         </text>
       </g>

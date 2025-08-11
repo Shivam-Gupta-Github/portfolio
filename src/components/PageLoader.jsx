@@ -69,7 +69,7 @@ const PageLoader = () => {
           width: "20ch",
         }}
       >
-        Something is cooking...
+        Keep Learning...
       </span>
 
       {/* Keyframes */}
@@ -77,7 +77,7 @@ const PageLoader = () => {
         {`
           @keyframes typing {
             from { width: 0 }
-            to { width: 20ch }
+            to { width: 16ch }
           }
           @keyframes blink {
             50% { border-color: transparent }
