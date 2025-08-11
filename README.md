@@ -1,4 +1,4 @@
-# 🚀 Shivam Gupta – Portfolio
+# Shivam Gupta – Portfolio
 
 My personal portfolio showcasing skills, projects, and achievements in competitive programming & full-stack development.
 
