@@ -4,11 +4,11 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navLinks = [
     "Home",
+    "Skills",
     "About",
     "Projects",
-    "Contact",
-    "Skills",
     "Achievements",
+    "Contact",
   ];
 
   return (
